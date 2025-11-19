@@ -2,6 +2,7 @@ package ua.university;
 
 public class BasicOperators {
 
+    
     public static double[] sumAndAverage(int a, int b, int c) {
         double sum = a + b + c;
         double avg = sum / 3.0;

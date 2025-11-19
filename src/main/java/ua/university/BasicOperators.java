@@ -14,7 +14,7 @@ public class BasicOperators {
     }
 
     public static char gradeFromScore(int score) {
-        if (score < 0 || score > 100) {
+         if (score < 0 || score > 100) {
             throw new IllegalArgumentException("Score must be 0–100");
         }
         if (score >= 90) return 'A';
